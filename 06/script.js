@@ -95,6 +95,7 @@ function draw(){
 //input
 function keyDown(e){
     if(e.key === 'w'){
+        console.log("itt");
         state.p1.dir = -1;
     }
     if(e.key === 's'){
